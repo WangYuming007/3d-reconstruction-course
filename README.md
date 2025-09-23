@@ -26,56 +26,9 @@
 - 论文研读: 50%
 - 项目实践: 50%
 
-## 技术栈
-
-- HTML5
-- CSS3 (现代CSS特性，支持亮暗主题切换)
-- JavaScript (ES6+)
-- 响应式设计
 
 ## 在线访问
 
 网站部署在 GitHub Pages 上，可通过以下链接访问：
 [课程网站](https://wangyuming007.github.io/3d-reconstruction-course/)
 
-## 本地运行
-
-1. 克隆仓库到本地
-```bash
-git clone https://github.com/WangYuming007/3d-reconstruction-course.git
-```
-
-2. 进入项目目录
-```bash
-cd 3d-reconstruction-course
-```
-
-3. 使用任意HTTP服务器运行，例如：
-```bash
-# 使用Python
-python -m http.server 8000
-
-# 使用Node.js
-npx serve .
-
-# 或直接在浏览器中打开 index.html
-```
-
-## 项目结构
-
-```
-├── index.html          # 主页面
-├── styles.css          # 样式文件
-├── main.js             # JavaScript功能
-├── coursewebsite/      # 课程相关资源
-├── README.md           # 项目说明
-└── .gitignore          # Git忽略文件
-```
-
-## 贡献
-
-欢迎提交 Issue 和 Pull Request 来改进网站。
-
-## 许可证
-
-© 2025 智能三维重建技术与实践课程组
