@@ -36,18 +36,18 @@
 ## 在线访问
 
 网站部署在 GitHub Pages 上，可通过以下链接访问：
-[课程网站](https://wangyuming007.github.io/3d-reconstruction-course-/)
+[课程网站](https://wangyuming007.github.io/3d-reconstruction-course/)
 
 ## 本地运行
 
 1. 克隆仓库到本地
 ```bash
-git clone https://github.com/WangYuming007/3d-reconstruction-course-.git
+git clone https://github.com/WangYuming007/3d-reconstruction-course.git
 ```
 
 2. 进入项目目录
 ```bash
-cd 3d-reconstruction-course-
+cd 3d-reconstruction-course
 ```
 
 3. 使用任意HTTP服务器运行，例如：
