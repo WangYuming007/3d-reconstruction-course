@@ -95,15 +95,51 @@ h1, h2, h3 { font-family: 'Noto Serif SC', serif; }
 h2 { margin: 16px 0 8px; border-left: 3px solid var(--brand); padding-left: 10px; font-size: 18px; }
 h2:first-child { margin-top: 0; }
 h3 { margin: 12px 0 6px; font-size: 16px; color: var(--brand); }
+h3.paper-heading { color: var(--text); }
 p { margin: 6px 0; font-size: 14px; line-height: 1.6; }
 p.indent { text-indent: 2em; }
 h3.indent { text-indent: 2em; }
+
+/* 论文标题样式 */
+.paper-heading { 
+  text-indent: 2em; 
+  font-size: 15px; 
+  margin: 12px 0 6px; 
+}
+
+/* 深层缩进 */
+.deep-indent { 
+  margin-left: 3em; 
+  text-indent: 1em; 
+}
 ul, ol { padding-left: 32px; margin: 8px 0; }
+ul.paper-list li::marker { color: var(--text); }
 li { margin: 2px 0; font-size: 14px; line-height: 1.5; }
 
 /* Markdown 风格的列表 */
 ul li::marker { content: "• "; color: var(--brand); }
 ol li::marker { color: var(--brand); font-weight: 600; }
+
+/* 论文列表特殊样式 */
+.paper-list { 
+  padding-left: 48px; 
+  margin: 6px 0; 
+}
+.paper-list li { 
+  margin: 4px 0; 
+  line-height: 1.4; 
+  font-size: 14px;
+}
+.paper-list li::marker { 
+  content: "• "; 
+  color: var(--text); 
+}
+
+/* 论文列表的额外缩进 */
+.paper-list.indent { 
+  margin-left: 2em; 
+  padding-left: 24px; 
+}
 section { margin-bottom: 16px; }
 
 .kv { display: grid; grid-template-columns: 100px 1fr; gap: 8px 16px; margin: 8px 0; }
