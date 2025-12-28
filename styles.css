@@ -112,6 +112,15 @@ h3.indent { text-indent: 2em; }
   margin-left: 3em; 
   text-indent: 1em; 
 }
+
+/* 块级缩进 (新增) */
+.block-indent {
+  margin-left: 2em;
+}
+p.block-indent {
+  text-indent: 2em;
+}
+
 ul, ol { padding-left: 32px; margin: 8px 0; }
 ul.paper-list li::marker { color: var(--text); }
 li { margin: 2px 0; font-size: 14px; line-height: 1.5; }
@@ -179,5 +188,3 @@ section { margin-bottom: 16px; }
   .layout { grid-template-columns: 1fr; }
   .sidebar { position: static; }
 }
-
-
